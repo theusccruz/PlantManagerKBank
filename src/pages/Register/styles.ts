@@ -29,4 +29,6 @@ export const Input = styled.TextInput`
 
   font-family: 'Jost-Light';
   font-size: 18px;
+
+  color: #5c6660;
 `;
