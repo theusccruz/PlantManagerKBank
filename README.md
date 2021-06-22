@@ -1,5 +1,5 @@
 # PlantManagerKBank
-Desafio KBank - React Native
+Desafio KBank - React Native<br>
 Reproduzir telas do app PlantManager da NLW5
 
 ## Executar um ``yarn`` na pasta raiz do projeto para instalar todas as dependências
