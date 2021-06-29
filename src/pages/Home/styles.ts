@@ -78,7 +78,7 @@ export const View = styled.View`
 `;
 
 export const RoomsList = styled(FlatList as new () => FlatList<RoomProps>)`
-  margin: 20px 0 20px 25px;
+  margin: 20px 0 35px 25px;
   height: 50px;
 `;
 
@@ -86,7 +86,7 @@ export const RoomButton = styled.TouchableOpacity<RoomButtonProps>`
   width: 75px;
   height: 40px;
 
-  background: #dcdce6;
+  background: #f0f0f0;
 
   ${props =>
     props.isFocused &&
@@ -110,7 +110,7 @@ export const PlantButton = styled.TouchableOpacity`
   width: 170px;
   height: 180px;
 
-  background: #dcdce6;
+  background: #f0f0f0;
 
   align-items: center;
   justify-content: space-evenly;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { IconOutline } from '@ant-design/icons-react-native';
 
 import { Container } from './styles';
 import Woman from '../../assets/images/woman.png';
@@ -30,7 +31,7 @@ const Welcome: React.FC = () => {
         height={65}
         onPress={() => navigation.navigate('Register')}
       >
-        {'>'}
+        <IconOutline name="right" size={25} color="#fff" />
       </Button>
     </Container>
   );

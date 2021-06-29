@@ -6,8 +6,8 @@
 
     <item
         android:drawable="@drawable/screen"
-        android:height="200dp"
-        android:width="200dp"
+        android:height="150dp"
+        android:width="260dp"
         android:gravity="center"
         />
 

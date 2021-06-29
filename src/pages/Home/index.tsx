@@ -42,7 +42,7 @@ const Home: React.FC = () => {
 
       <View>
         <Text fontSize={17} fontFamily="Jost-Medium">
-          Em qual hambiente
+          Em qual ambiente
         </Text>
         <Text fontSize={17}>você quer colocar sua planta?</Text>
       </View>
